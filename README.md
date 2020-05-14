@@ -3,3 +3,4 @@
 ## 기능 목록
 1. todo List
 2. make home
+3. learn js

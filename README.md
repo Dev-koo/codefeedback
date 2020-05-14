@@ -1,1 +1,1 @@
-# Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, exercitationem.
+# 이 저장소는 코드 피드백을 받기위한 저장소 입니다.

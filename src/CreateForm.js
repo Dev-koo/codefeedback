@@ -1,6 +1,6 @@
 import React from "react";
 
-class CreateFrom extends React.Component {
+class CreateForm extends React.Component {
 	constructor(props) {
 		super(props);
 		this.inputValue = React.createRef();
@@ -34,4 +34,4 @@ class CreateFrom extends React.Component {
 	}
 }
 
-export default CreateFrom;
+export default CreateForm;

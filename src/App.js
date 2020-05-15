@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Title from "./Title.js";
-import CreateFrom from "./CreateFrom.js";
+import CreateForm from "./CreateForm.js";
 import TodoList from "./TodoList.js";
 import "./App.css";
 class App extends Component {
@@ -26,7 +26,7 @@ class App extends Component {
 		return (
 			<>
 				<Title title={"오늘뭐하지"} />
-				<CreateFrom onCreate={this.onCreate} />
+				<CreateForm onCreate={this.onCreate} />
 				<TodoList todos={this.state.todos} onDelete={this.onDelete} />
 			</>
 		);

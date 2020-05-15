@@ -6,3 +6,4 @@
 3. learn js
 4. learn HTML
 5. learn-css
+6. park의 수정본

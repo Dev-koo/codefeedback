@@ -1,68 +1,24 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 이 저장소는 코드 피드백을 받기위한 저장소 입니다!
 
-## Available Scripts
+안녕하세요. 현재 리액트를 열심히 공부중인
+평범한 남자 사람입니다! 열심히 삽질한 코드들을 많은 분들이 보고 피드백해주셨으면 좋겠습니다.
 
-In the project directory, you can run:
+## 소개
 
-### `npm start`
+---
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+처음 프로그래밍 언어를 배울때 Hello world! 를 출력한다면 처음 프로그래밍할때 TODO LIST 겠죠?(아마도..)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+네, 제가 처음 리액트로 만들어본 TODO LIST 입니다.
 
-### `npm test`
+## 내 생각
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+사실 검색해보면 완성된 코드들이 많이 나와있었지만 뭔가 이해도 안되고.. 고민하는 과정이 짧아서 그런지 자꾸 까먹더라구요.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+이렇게하면 이런 결과가 나오는구나! 는 알겠지만 응용 능력이 부족한 저로써는
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+내멋대로 써보고 피드백받는게 더 좋은 경험이 될것 같았습니다!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+그래서 생뚱맞은곳에서 이상한 코드가 나올수 있으니 많은 지적, 조언 부탁드립니다.

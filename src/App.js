@@ -1,26 +1,36 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import React, { Component } from "react";
+import Title from "./Title.js";
+import CreateFrom from "./CreateFrom.js";
+import TodoList from "./TodoList.js";
+import "./App.css";
+class App extends Component {
+	state = {
+		todos: []
+	};
+	onCreate = value => {
+		console.log("onCreate()", value);
+		this.setState({
+			todos: [...this.state.todos, { todo: value }]
+		});
+	};
+	onDelete = ({ todo }) => {
+		console.log("onDelete()", todo);
+		const todos = this.state.todos.filter(todos => {
+			if (todos.todo !== todo) return todos;
+		});
+		this.setState({
+			todos: [...todos]
+		});
+	};
+	render() {
+		return (
+			<>
+				<Title title={"오늘뭐하지"} />
+				<CreateFrom onCreate={this.onCreate} />
+				<TodoList todos={this.state.todos} onDelete={this.onDelete} />
+			</>
+		);
+	}
 }
 
 export default App;

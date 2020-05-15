@@ -7,3 +7,4 @@
 4. learn HTML
 5. learn-css
 6. park의 수정본
+7. koo의 수정본
